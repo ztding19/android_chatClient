@@ -18,10 +18,6 @@ import java.net.UnknownHostException;
 
 public class MainActivity extends AppCompatActivity {
 
-    Socket socket;
-    String SERVER_IP = "";
-    int SERVER_PORT;
-    Handler handler = new Handler();
     Button btnConnect;
     EditText inputName;
     EditText inputIp;
